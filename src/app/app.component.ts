@@ -86,7 +86,7 @@ export class AppComponent {
 
   }
 
-  private refreshSelect() {
+  private refreshSelect(): void {
     AppComponent.setOptionNbSelect(this.dynamicSelect, this.selectedDynamicItem);
   }
 }
